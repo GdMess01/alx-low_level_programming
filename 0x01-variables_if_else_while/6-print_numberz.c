@@ -16,8 +16,9 @@ int main()
         { 
             putchar(i + '0');
         }
-        
+        putchar('\n');
     }
     print_digits();
+    
     return (0);
 }
