@@ -9,12 +9,12 @@
 */
 
 int main() {
-    char str[] = "abcdefghijklmnopqrstuvwxyz";
-    int i;
+    //char str[] = "abcdefghijklmnopqrstuvwxyz";
+    char ch;
 
-    for (i = 0; str[i] != '\0'; i++) 
+    for (ch = 'a'; ch <= 'z'; ch++) 
     {
-        putchar(str[i]);
+        putchar(ch);
     }
 
     return (0);
