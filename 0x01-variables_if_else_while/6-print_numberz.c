@@ -1,24 +1,19 @@
-#include <stdio.h>
+#include<stdio.h>
 
 /**
-* main - print the numbers 0-9
+* main-print the alphabet in lowercase
 * 
-* Description: using the main function
-* this program prints "the numbers 0-9 with putchar
-* Return: 0
+* Description:using the main function
+* this program prints "the alphabet in lowercase, followed by a new line
+* Return:0
 */
-int main() 
-{
-    void print_digits()
+
+int main(void) {
+    int i;
+    for (i = '0'; i <= '9'; i++) 
     {
-        int i;
-        for (i = 0; i < 10; i++) 
-        { 
-            putchar(i + '0');
-        }
-        putchar('\n');
+        putchar(i);
     }
-    print_digits();
-    
+    putchar('\n');
     return (0);
 }
