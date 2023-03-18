@@ -13,9 +13,9 @@ int main() {
         for (j = 48; j <= 57; j++){
             for (k = 48; k <= 57; k++){
                 if(i != j && i != k && j != k){
-                    putchar(i/10 + '0'); // print tens digit
-                    putchar(i%10 + '0'); // print ones digit
-                    putchar(' '); // print space
+                    putchar(i/10 + '0'); 
+                    putchar(i%10 + '0'); 
+                    putchar(' '); 
                     putchar(j);
                     putchar(k);
                     putchar(',');
@@ -23,5 +23,6 @@ int main() {
             }
         }
     }
+    putchar('\n');
     return 0;
 }
