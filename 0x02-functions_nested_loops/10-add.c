@@ -2,6 +2,8 @@
 
 /**
  * add - prints the sum of two numbers
+ * @n1: the first number to be computed
+ * @n2: the second number to be computed
  * Return: sum of two integers
  */
 
