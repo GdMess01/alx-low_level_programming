@@ -2,6 +2,7 @@
 
 /**
  * main - Make the alphabets
+ * Description: this code prints all alphabets with new line
  * Return: void
  */
 void print_alphabet(void)
