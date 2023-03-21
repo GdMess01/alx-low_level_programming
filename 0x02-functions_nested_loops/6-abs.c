@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _abs - add absolute value of numbers
- * @c: The number to be checked
- * Return: -a if the number is negative and a if is positive
+ * _abs - Add absolute value of numbers
+ * @c: The number to be computed
+ * Return: The absolute value or zero
  */
 
 int _abs(int a)
