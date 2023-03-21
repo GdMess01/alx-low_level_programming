@@ -2,7 +2,7 @@
 
 /**
  * _abs - add absolute value of numbers
- * @c: The character to be checked
+ * @c: The number to be checked
  * Return: -a if the number is negative and a if is positive
  */
 
