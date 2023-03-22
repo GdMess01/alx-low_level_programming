@@ -11,15 +11,15 @@ int main(void)
     while (i < 100)
     {
         if (i == 0)
-        printf("%lld", f2);
+        printf("%ld", f2);
         else if (i == 1)
-        printf(", %lld", f1);
+        printf(", %ld", f1);
         else
         {
             f = f1 + f2;
             f2 = f1;
             f1 = f;
-            printf(", %lld", f);
+            printf(", %ld", f);
         }
         i++;
     }
