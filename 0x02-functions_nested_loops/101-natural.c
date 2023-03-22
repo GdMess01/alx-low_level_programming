@@ -1,6 +1,10 @@
 #include <stdio.h>
 
-int main() 
+/**
+ * main - prints multiples of 3 or 5 up to 1024
+ * Return: Always success
+ */
+int main(void) 
 {
     int i, sum = 0;
     for (i = 0; i <= 1024; i++)
@@ -10,7 +14,6 @@ int main()
             sum = sum + i;
         }
     }
-printf("%d", sum);    
-
-    return 0;
+printf("%d\n", sum);    
+return 0;
 }
