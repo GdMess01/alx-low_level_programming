@@ -6,8 +6,7 @@
  */
 int main(void) 
 {
-    int i = 0, sum = 2;
-    long f, f1 = 2, f2 = 1;
+    long f, f1 = 2, f2 = 1, sum = f1;
     while (f < 4000000)
     {
         f = f1 + f2;
@@ -18,10 +17,8 @@ int main(void)
             sum += f;
                 
         }
-        i++;
     }
-    printf("%d", sum);
-    printf("\n");
+    printf("%d\n", sum);
     
 return 0;
 }
