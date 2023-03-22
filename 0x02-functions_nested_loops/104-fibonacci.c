@@ -7,7 +7,7 @@
 int main(void)
 {
     int i = 0;
-    long long f, f1 = 2, f2 = 1;
+    long f, f1 = 2, f2 = 1;
     while (i < 100)
     {
         if (i == 0)
