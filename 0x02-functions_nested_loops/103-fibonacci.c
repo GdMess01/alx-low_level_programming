@@ -21,7 +21,7 @@ int main(void)
             f1 = f;
             if (f % 2 == 0)
             {
-                printf(", %d", f);
+                printf(", %ld", f);
             }
         }
         i++;
