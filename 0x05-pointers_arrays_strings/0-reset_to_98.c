@@ -1,11 +1,12 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
- * reset_to_98 - reset the value to 98
+ * reset_to_98 - reset to 98
  * Return: nothing
  */
 
-void reset_to_98(int *m)
+void reset_to_98(int *n)
 {
-	*m = 98;
+    *n = 98;
 }
