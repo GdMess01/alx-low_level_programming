@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * strlen - determine the length of a string
+ * _strlen - determine the length of a string
  * @s: te be added
  * Return: an integer
  */
