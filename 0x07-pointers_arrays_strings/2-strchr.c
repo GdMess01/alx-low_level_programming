@@ -2,11 +2,11 @@
 
 /**
  * _strchr - locates a character in a string
- * pointed to by @s with the constant byte @c.
  * @s: char to be added
  * @c: char to be added
  * 
  * Return: characters.
+ * If c is not found - NULL.
  */
 char *_strchr(char *s, char c)
 {
