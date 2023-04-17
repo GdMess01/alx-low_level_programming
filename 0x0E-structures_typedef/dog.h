@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * struct my_struct - Short description
+ * struct dog - Short description
  * @name: First member
  * @owner: Second member
  * @age: Third member
@@ -13,4 +13,4 @@ struct dog
 	char *name;
 	float age;
 	char *owner;
-};	
+};
